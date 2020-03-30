@@ -15,9 +15,9 @@ import android.support.annotation.RequiresApi;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.content.FileProvider;
 import android.util.Log;
-import android.webkit.MimeTypeMap;
-import android.webkit.ValueCallback;
-import android.webkit.WebChromeClient;
+//import android.webkit.MimeTypeMap;
+//import android.webkit.ValueCallback;
+//import android.webkit.WebChromeClient;
 import android.widget.Toast;
 
 import com.facebook.react.bridge.ActivityEventListener;
@@ -28,6 +28,9 @@ import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.module.annotations.ReactModule;
 import com.facebook.react.modules.core.PermissionAwareActivity;
 import com.facebook.react.modules.core.PermissionListener;
+import com.tencent.smtt.sdk.MimeTypeMap;
+import com.tencent.smtt.sdk.ValueCallback;
+import com.tencent.smtt.sdk.WebChromeClient;
 
 import java.io.File;
 import java.io.IOException;
